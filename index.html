@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portefolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/40d0367ab6.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- nav -->
+    <nav class="p-3">
+        <div>
+            <div class="flex p4 justify-between">
+                <div>
+                    <a href="/">
+                        <img class="h-10 ml-2 py-1" alt='logo' src="/img/logoAK.jpg">
+                    </a>
+                </div>
+                <div class="ml-10">
+                    <ul class="hidden md:flex pt-2">
+                        <!-- <li class="mr-6">
+                            <a class="text-grey-800 hover:text-orange-400" href="#">ACCUEIL</a>
+                        </li> -->
+                        <li class="mr-6">
+                            <a class="text-grey-800 hover:text-orange-400" href="#presentation">A PROPOS</a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="text-grey-800 hover:text-orange-400" href="#competences">COMPETENCES</a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="text-grey-800 hover:text-orange-400" href="#projets">PROJETS</a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="text-grey-800 hover:text-orange-400" href="#contact">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button class="button-mobile-menu pt-2 pr-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="mobile-menu hidden md:hidden">
+                <!-- <a href="/" class="block py-2 px-3 text-sm hover:bg-gray-200 text-right">ACCUEIL</a> -->
+                <a href="#presentation" class="block py-2 px-3 text-sm hover:bg-gray-200 text-right">A PROPOS</a>
+                <a href="#competences" class="block py-2 px-3 text-sm hover:bg-gray-200 text-right">COMPETENCES</a>
+                <a href="#projets" class="block py-2 px-3 text-sm hover:bg-gray-200 text-right">PROJETS</a>
+                <a href="#contact" class="block py-2 px-3 text-sm hover:bg-gray-200 text-right">CONTACT</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- header -->
+
+    <div class="bg-cover bg-center h-full text-orange-400 py-80 px-10 object-fill mx-auto "
+        style="background-image: url(/img/bg-header.jpg) ; height:100vh">
+        <div class="text-center">
+            <p class="text-4xl md:text-7xl text-center font-thin m-3">DEVELOPPEUSE FULLSTACK</p>
+            <p class="text-2xl md:text-4xl mb-10 leading-loose text-orange-200">REACT | REACT NATIVE</p>
+            <svg xmlns="http://www.w3.org/2000/svg" class="animate-bounce h-10 w-10 text-zinc-600 mx-auto m-20" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M19 13l-7 7-7-7m14-8l-7 7-7-7" />
+            </svg>
+        </div>
+    </div>
+
+    <!-- presentation -->
+
+    <div>
+        <h2 id="presentation" class="text-center text-gray-600 font-thin text-4xl py-20">PRESENTATION</h2>
+        <div class="flex px-10 md:px-20 flex-col md:flex-row">
+            <p class="flex flex-wrap text-justify text-grey-600 font-thin justify-center leading-relaxed md:my-10 md:ml-20">
+                Après une longue période à l'étranger en tant que professeure de français langue étrangère, je reviens à
+                mon premier choix de carrière, le web, et me spécialise dans le développement d'applications pour
+                intégrer un secteur qui offre beaucoup d'opportunités et qui répond à ma constante envie d'apprendre et
+                d'évoluer. Enthousiaste et désireuse de continuer à me former, j'ai multiplé les formations et les
+                tutoriels afin de devenir autonome et polyvalente dans un secteur en évolution permanente mais qui donne
+                la possibilité de se perfectionner continuellement grâce aux nombreuses ressources et communautés existantes</p>
+            <div class="flex flex-wrap justify-center">
+                <img class="object-cover rounded-full md:w-1/2 items-center border-none my-5" alt='photo_profil' src="/img/aynur.jpg">
+            </div>
+        </div>
+    </div>
+
+    <!-- compétences -->
+
+    <div>
+        <h2 id="competences" class="text-center text-gray-600 font-thin text-4xl py-20">COMPETENCES</h2>
+        <div class="flex px-10 md:px-20 justify-content flex-col md:flex-row">
+            <p class="flex flex-wrap text-justify text-gray-600 font-thin content-center leading-relaxed my-5 md:ml-20">
+                Interessée par le code depuis plusieurs années, j'ai vraiment commencé ma reconversion professionnelle en janvier 2021 et je suis maintenant capable de développer des applications web & mobile from scratch, principalement en
+                React et React Native. À ces compétences techniques s'ajoutent des soft skills tels que la résolution de problème ou le sens du collectif,  développés grâce à mes précédents postes et mes longs voyages.<br><br>
+                <span><a class="hover:text-orange-400" href="/akaysoy_cv.pdf" target="_blank">Visualiser
+                        mon profil en détail sur mon cv</a></span>
+                .
+            </p>
+            <div class="flex flex-wrap justify-left my-6 md:mx-3 md:pl-5">
+                <p
+                    class="inline-flex items-center justify-center px-2 py-1 m-1 text-xs font-bold text-zinc-600 bg-zinc-300 rounded">
+                    HTML</p>
+                <p
+                    class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-zinc-300 rounded">
+                    CSS</p>
+                <p
+                    class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-zinc-300 rounded">
+                    BOOTSTRAP</p>
+                <p
+                    class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-zinc-300 rounded">
+                    TAILWIND</p>
+                <p
+                    class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-zinc-300 rounded">
+                    JAVASCRIPT</p>
+                <p
+                    class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-200 rounded">
+                    REACT</p>
+                <p
+                    class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-200 rounded">
+                    REACT NATIVE</p>
+                <p
+                    class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-200 rounded">
+                    EXPO</p>
+                <p
+                    class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-200 rounded">
+                    REDUX</p>
+                <p
+                    class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-300 rounded">
+                    EXPRESS</p>
+                <p
+                    class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-300 rounded">
+                    MYSQL</p>
+                <p
+                    class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-300 rounded">
+                    PHP</p>
+                <p
+                    class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-300 rounded">
+                    NODE.JS</p>
+                <p
+                    class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-300 rounded">
+                    MONGODB</p>
+                <p
+                    class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-300 rounded">
+                    SYMFONY</p>
+                <p
+                    class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-emerald-400 rounded">
+                    HEROKU</p>
+                <p
+                    class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-emerald-400 rounded">
+                    GIT</p>
+                <p
+                    class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-emerald-400 rounded">
+                    PHOTOSHOP</p>
+                <p
+                    class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-emerald-400 rounded">
+                    WORDPRESS</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- projets -->
+    <section class="bg-gray-200 mt-20 pb-20">
+        <div>
+            <h2 id="projets" class="text-center text-gray-600 font-thin text-4xl py-20">PROJETS</h2>
+        </div>
+        <div class="md:h-full flex items-center text-gray-600 font-thin">
+            <div class="container px-6 py-15 mx-auto">
+                <div class="flex flex-wrap">
+                    <div class="sm:w-1/2 lg:w-1/3 p-3">
+                        <div class="h-auto border-2 border-gray-100 rounded-lg overflow-hidden bg-white">
+                            <!--<iframe class="lg:h-72 md:h-48 w-full object-cover object-center"
+                            src="https://www.youtube.com/embed/qozRajUe8gM" title="demo Art+More" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>-->
+                            <video controls>
+                                <source src="/video/art+more.mp4">
+                            </video>
+                            <div class="p-6 hover:bg-rose-400 hover:text-white transition duration-400 ease-in">
+                                <h3 class="text-2xl mb-3 text-gray-600">Art+More</h3>
+                                <p class="leading-relaxed mb-3">Application mobile d'art personnalisée.<br> Développée à
+                                    4
+                                    pour l'obtention du titre RNCP de niveau 6.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a class="text-gray-600 inline-flex items-center">En savoir plus
+                                        <svg onclick="toggleArtMore()" xmlns="http://www.w3.org/2000/svg"
+                                            class="h-6 w-6 p-1 m-1" fill="none" viewBox="0 0 24 24"
+                                            stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M12 4v16m8-8H4" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sm:w-1/2 lg:w-1/3 p-3">
+                        <div
+                            class="h-auto border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden bg-white">
+                            <!--<img class="lg:h-72 md:h-48 object-cover"
+                            src="/lingoland.jpg" alt="Lingoland.fr">-->
+                            <video controls>
+                                <source src="/video/lingoland.mp4">
+                            </video>
+                            <div class="p-6 hover:bg-orange-300 hover:text-white transition duration-400 ease-in">
+                                <h3 class="text-2xl text-emerald-600 mb-3">Lingoland.fr</h3>
+                                <p class="leading-relaxed mb-3">Application web d'échange linguistique.<br>Développée
+                                    seule
+                                    pour l'obtention du titre RNCP de niveau 5.</p>
+                                <a class="text-emerald-600 inline-flex items-center">En savoir plus
+                                    <svg onclick="toggleLingoland()" xmlns="http://www.w3.org/2000/svg"
+                                        class="h-6 w-6 p-1 m-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M12 4v16m8-8H4" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sm:w-1/2 lg:w-1/3 p-3">
+                        <div class="h-auto border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden bg-white">
+                            <video controls>
+                                <source src="/video/portefolio.mp4">
+                            </video>
+                            <div class="p-6 hover:bg-gray-400 hover:text-white transition duration-400 ease-in">
+                                <h3 class="text-2xl mb-3 text-orange-200">Portefolio</h3>
+                                <p class="leading-relaxed mb-3">Site qui présente mes compétences et mes projets<br>Première utilisation de Tailwind</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a class="text-orange-200 inline-flex items-center">En savoir plus
+                                        <svg onclick="togglePortefolio()" xmlns="http://www.w3.org/2000/svg"
+                                            class="h-6 w-6 p-1 m-1" fill="none" viewBox="0 0 24 24"
+                                            stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M12 4v16m8-8H4" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sm:w-1/2 lg:w-1/3 p-3">
+                        <div
+                            class="h-auto border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden bg-white">
+                            <video controls>
+                                <source src="/video/mymoviz.mp4">
+                            </video>
+                            <div class="p-6 hover:bg-yellow-400 hover:text-white transition duration-400 ease-in">
+                                <h3 class="text-2xl text-blue-600 mb-3">MyMoviz</h3>
+                                <p class="leading-relaxed mb-3">Application web liée à une API qui référence une
+                                    multitude de films, avec ajout à une wishlist.</p>
+                                <a class="text-blue-600 inline-flex items-center">En savoir plus
+                                    <svg onclick="toggleMoviz()" xmlns="http://www.w3.org/2000/svg"
+                                        class="h-6 w-6 p-1 m-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M12 4v16m8-8H4" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sm:w-1/2 lg:w-1/3 p-3">
+                        <div
+                            class="h-auto border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden bg-white">
+                            <video controls>
+                                <source src="/video/morningnews.mp4">
+                            </video>
+                            <div class="p-6 hover:bg-indigo-400 hover:text-white transition duration-400 ease-in">
+                                <h3 class="text-2xl text-pink-600 mb-3">MorningNews</h3>
+                                <p class="leading-relaxed mb-3">Application web permettant d’afficher les dernières news
+                                    avec la possibilité d'ajouter un article dans ses favoris.</p>
+                                <a class="text-pink-600 inline-flex items-center">En savoir plus
+                                    <svg onclick="toggleMorning()" xmlns="http://www.w3.org/2000/svg"
+                                        class="h-6 w-6 p-1 m-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M12 4v16m8-8H4" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sm:w-1/2 lg:w-1/3 p-3">
+                        <div
+                            class="h-auto border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden bg-white">
+                            <video controls>
+                                <source src="/video/bikeshop.mp4">
+                            </video>
+                            <div class="p-6 hover:bg-red-400 hover:text-white transition duration-400 ease-in">
+                                <h3 class="text-2xl text-gray-600 mb-3">Bikeshop</h3>
+                                <p class="leading-relaxed mb-3">Application web e-commerce de vente de
+                                    vélo.<br>Réalisation
+                                    d'une maquette "Pixel-Perfect"</p>
+                                <a class="text-gray-600 inline-flex items-center">En savoir plus
+                                    <svg onclick="toggleBike()" xmlns="http://www.w3.org/2000/svg"
+                                        class="h-6 w-6 p-1 m-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M12 4v16m8-8H4" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+
+        <div class="fixed z-10 overflow-y-auto top-0 w-full left-0 hidden" id="bikeshop">
+            <div class="flex items-center justify-center min-height-100vh pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+                <div class="transition-opacity">
+                    <div class="absolute inset-0 bg-gray-800 opacity-75" />
+                </div>
+                <span class="hidden sm:inline-block sm:align-middle sm:h-screen">&#8203;</span>
+                <div class="inline-block align-center bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full"
+                    role="dialog" aria-modal="true" aria-labelledby="modal-headline">
+                    <div class="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
+                        <h4 class="font-thin text-2xl text-center m-5">COMPETENCES TECHNIQUES </h4>
+                        <div class="flex flex-wrap justify-center my-10 px-3">
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-zinc-300 rounded">
+                                HTML</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-zinc-300 rounded">
+                                CSS</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-zinc-300 rounded">
+                                BOOTSTRAP</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-zinc-300 rounded">
+                                JAVASCRIPT</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-300 rounded">
+                                EXPRESS</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-300 rounded">
+                                NODE.JS</p>
+                        </div>
+                        <ul class="w-full rounded-lg mt-2 mb-3 text-gray-600 font-thin list-disc leading-relaxed">
+                            <li class="ml-20">Mettre en place une interface responsive</li>
+                            <li class="ml-20">Gérer un catalogue produit</li>
+                            <li class="ml-20"> Mettre en place un panier</li>
+                            <li class="ml-20">Intégrer un moyen de paiement avec Stripe</li>
+                        </ul>
+                    </div>
+                    <div class="text-right">
+                        <button type="button"
+                            class="my-2 py-2 px-4 bg-gray-400 text-white rounded hover:bg-gray-600 mr-5 mb-5"
+                            onclick="toggleBike()">Fermer</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="fixed z-10 overflow-y-auto top-0 w-full left-0 hidden" id="morningnews">
+            <div class="flex items-center justify-center min-height-100vh pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+                <div class="transition-opacity">
+                    <div class="absolute inset-0 bg-gray-800 opacity-75" />
+                </div>
+                <span class="hidden sm:inline-block sm:align-middle sm:h-screen">&#8203;</span>
+                <div class="inline-block align-center bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full"
+                    role="dialog" aria-modal="true" aria-labelledby="modal-headline">
+                    <div class="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
+                        <h4 class="font-thin text-2xl text-center m-5">COMPETENCES TECHNIQUES </h4>
+                        <div class="flex flex-wrap justify-center my-10 px-3">
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-zinc-300 rounded">
+                                JAVASCRIPT</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-200 rounded">
+                                REACT</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-200 rounded">
+                                REACTSTRAP</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-200 rounded">
+                                JSX</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-200 rounded">
+                                REDUX</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-300 rounded">
+                                EXPRESS</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-300 rounded">
+                                NODE.JS</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-300 rounded">
+                                POSTMAN</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-300 rounded">
+                                MONGODB</p>
+                        </div>
+                        <ul class="w-full rounded-lg mt-2 mb-3 text-gray-600 font-thin list-disc leading-relaxed">
+                            <li class="ml-16">Intégrer une API sous forme de Webservice - NewsAPI</li>
+                            <li class="ml-16">Mettre en place une navigation avec le système des routes dans React</li>
+                            <li class="ml-16">Manipuler les champs de saisie dans React</li>
+                            <li class="ml-16">Mettre en place un système d’identification sign in/sign up</li>
+                            <li class="ml-16">Utiliser Redux pour faciliter l’échange de données</li>
+                            <li class="ml-16">Mettre en place une identification sécurisée</li>
+                        </ul>
+                    </div>
+                    <div class="text-right">
+                        <button type="button"
+                            class="my-2 py-2 px-4 bg-gray-400 text-white rounded hover:bg-gray-600 mr-5 mb-5"
+                            onclick="toggleMorning()">Fermer</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="fixed z-10 overflow-y-auto top-0 w-full left-0 hidden" id="mymoviz">
+            <div class="flex items-center justify-center min-height-100vh pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+                <div class="transition-opacity">
+                    <div class="absolute inset-0 bg-gray-800 opacity-75" />
+                </div>
+                <span class="hidden sm:inline-block sm:align-middle sm:h-screen">&#8203;</span>
+                <div class="inline-block align-center bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full"
+                    role="dialog" aria-modal="true" aria-labelledby="modal-headline">
+                    <div class="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
+                        <h4 class="font-thin text-2xl text-center m-5">COMPETENCES TECHNIQUES </h4>
+                        <div class="flex flex-wrap justify-center my-10 px-3">
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-zinc-300 rounded">
+                                JAVASCRIPT</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-200 rounded">
+                                REACT</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-200 rounded">
+                                JSX</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-200 rounded">
+                                REACTSTRAP</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-200 rounded">
+                                REDUX</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-300 rounded">
+                                EXPRESS</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-300 rounded">
+                                POSTMAN</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-300 rounded">
+                                NODE.JS</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-300 rounded">
+                                MONGODB</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-emerald-400 rounded">
+                                GIT</p>
+                        </div>
+                        <ul class="w-full rounded-lg mt-2 mb-3 text-gray-600 font-thin list-disc leading-relaxed">
+                            <li class="ml-16">Intégrer une API sous forme de Webservice - TMDB</li>
+                            <li class="ml-16">Créer une interface graphique avec JSX</li>
+                            <li class="ml-16">Découper une application en composants React</li>
+                            <li class="ml-16">Maîtriser les concepts de propriété et d’état d’un composant React</li>
+                            <li class="ml-16">Maîtriser la gestion des événements en React</li>
+                            <li class="ml-16">Faire remonter de l’information entre les composants React (Reverse Data
+                                Flow)
+                            </li>
+                            <li class="ml-16">Mettre en place notre propre API via un Backend</li>
+                            <li class="ml-16">Maîtriser le cycle de vie d’un composant React</li>
+                        </ul>
+                    </div>
+                    <div class="text-right">
+                        <button type="button"
+                            class="my-2 py-2 px-4 bg-gray-400 text-white rounded hover:bg-gray-600 mr-5 mb-5"
+                            onclick="toggleMoviz()">Fermer</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="fixed z-10 overflow-y-auto top-0 w-full left-0 hidden" id="portefolio">
+            <div class="flex items-center justify-center min-height-100vh pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+                <div class="transition-opacity">
+                    <div class="absolute inset-0 bg-gray-800 opacity-75" />
+                </div>
+                <span class="hidden sm:inline-block sm:align-middle sm:h-screen">&#8203;</span>
+                <div class="inline-block align-center bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full"
+                    role="dialog" aria-modal="true" aria-labelledby="modal-headline">
+                    <div class="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
+                        <h4 class="font-thin text-2xl text-center m-5">COMPETENCES TECHNIQUES </h4>
+                        <div class="flex flex-wrap justify-center my-10 px-3">
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-1 m-1 text-xs font-bold text-zinc-600 bg-zinc-300 rounded">
+                                HTML</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-zinc-300 rounded">
+                                CSS</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-zinc-300 rounded">
+                                TAILWIND</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-zinc-300 rounded">
+                                JAVASCRIPT</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-emerald-400 rounded">
+                                HEROKU</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-emerald-400 rounded">
+                                GIT</p>
+                        </div>
+                        <ul class="w-full rounded-lg mt-2 mb-3 text-gray-600 font-thin list-disc leading-relaxed">
+                            <li class="ml-16">Créer une interface avec HTML et CSS</li>
+                            <li class="ml-16">Maîtriser la notion de DOM et d'événements en JS</li>
+                            <li class="ml-16">Créer une interface responsive</li>
+                            <li class="ml-16">Prendre en main le framework CSS Tailwind</li>
+                        </ul>
+                    </div>
+                    <div class="text-right">
+                        <button type="button"
+                            class="my-2 py-2 px-4 bg-gray-400 text-white rounded hover:bg-gray-600 mr-5 mb-5"
+                            onclick="togglePortefolio()">Fermer</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="fixed z-10 overflow-y-auto top-0 w-full left-0 hidden" id="lingoland">
+            <div class="flex items-center justify-center min-height-100vh pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+                <div class="transition-opacity">
+                    <div class="absolute inset-0 bg-gray-800 opacity-75" />
+                </div>
+                <span class="hidden sm:inline-block sm:align-middle sm:h-screen">&#8203;</span>
+                <div class="inline-block align-center bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full"
+                    role="dialog" aria-modal="true" aria-labelledby="modal-headline">
+                    <div class="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
+                        <h4 class="font-thin text-2xl text-center m-5">COMPETENCES TECHNIQUES </h4>
+                        <div class="flex flex-wrap justify-center my-10 px-3">
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-red-300 rounded">
+                                TRELLO</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-1 m-1 text-xs font-bold text-zinc-600 bg-zinc-300 rounded">
+                                HTML</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-zinc-300 rounded">
+                                CSS</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-zinc-300 rounded">
+                                BOOTSTRAP</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-zinc-300 rounded">
+                                TWIG</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-300 rounded">
+                                SYMFONY</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-300 rounded">
+                                PHP</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-300 rounded">
+                                MYSQL</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-300 rounded">
+                                PHPMYADMIN</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-emerald-400 rounded">
+                                HEROKU</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-emerald-400 rounded">
+                                GIT</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-emerald-400 rounded">
+                                PHOTOSHOP</p>
+                        </div>
+                        <ul class="w-full rounded-lg mt-2 mb-3 text-gray-600 font-thin list-disc leading-relaxed">
+                            <li class="ml-16">Créer une interface responsive avec Bootstrap</li>
+                            <li class="ml-16">Rendre des pages HTML dynamiques</li>
+                            <li class="ml-16">Mettre en place une base de données</li>
+                            <li class="ml-16">Mettre en œuvre une architecture MVC</li>
+                            <li class="ml-16">Mettre en place un système d’identification sign in/sign up sécurisée</li>
+                            <li class="ml-16">Mettre en place un système de messagerie</li>
+                        </ul>
+                    </div>
+                    <div class="text-right">
+                        <button type="button"
+                            class="my-2 py-2 px-4 bg-gray-400 text-white rounded hover:bg-gray-600 mr-5 mb-5"
+                            onclick="toggleLingoland()">Fermer</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="fixed z-10 overflow-y-auto top-0 w-full left-0 hidden" id="artmore">
+            <div class="flex items-center justify-center min-height-100vh pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+                <div class="transition-opacity">
+                    <div class="absolute inset-0 bg-gray-800 opacity-75" />
+                </div>
+                <span class="hidden sm:inline-block sm:align-middle sm:h-screen">&#8203;</span>
+                <div class="inline-block align-center bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full"
+                    role="dialog" aria-modal="true" aria-labelledby="modal-headline">
+                    <div class="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
+                        <h4 class="font-thin text-2xl text-center m-5">COMPETENCES TECHNIQUES </h4>
+                        <div class="flex flex-wrap justify-center my-10 px-3">
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-red-300 rounded">
+                                MIRO</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-red-300 rounded">
+                                FIGMA</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-red-300 rounded">
+                                TRELLO</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-zinc-300 rounded">
+                                JAVASCRIPT</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-200 rounded">
+                                REACT</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-200 rounded">
+                                REACT NATIVE</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-200 rounded">
+                                EXPO</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-200 rounded">
+                                REDUX</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-300 rounded">
+                                EXPRESS</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-300 rounded">
+                                MONGODB</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-emerald-400 rounded">
+                                GIT</p>
+                        </div>
+                        <ul class="w-full rounded-lg mt-2 mb-3 text-gray-600 font-thin list-disc leading-relaxed">
+                            <li class="ml-16">Créer une interface avec HTML et CSS</li>
+                            <li class="ml-16">Maîtriser la notion de DOM et d'événements en JS</li>
+                            <li class="ml-16">Créer une interface responsive</li>
+                            <li class="ml-16">Prendre en main le framework CSS Tailwind</li>
+                        </ul>
+                    </div>
+                    <div class="text-right">
+                        <button type="button"
+                            class="my-2 py-2 px-4 bg-gray-400 text-white rounded hover:bg-gray-600 mr-5 mb-5"
+                            onclick="toggleArtMore()">Fermer</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact -->
+    <div id="contact" class="bg-orange-200">
+        <div>
+            <h2 class="text-center text-gray-600 font-thin text-4xl py-20">CONTACT</h2>
+        </div>
+        <div class="text-center font-thin text-2xl text-orange-400 py-20">
+            <p>aynur.kaysoy@gmail.com</p>
+            <p>+33 7 77 69 77 95</p>
+            <p>Paris (75012)</p>
+        </div>
+        <div class="flex justify-center py-20">
+            <div class="px-5" style="color: gray;">
+                <a href="https://www.linkedin.com/in/aynur-kaysoy/" target="_blank">
+                    <i class="fab fa-linkedin fa-5x"></i>
+                </a>
+            </div>
+            <div class="px-5" style="color: gray;">
+                <a href="https://github.com/AynurSoniaK" target="_blank">
+                    <i class="fab fa-github fa-5x"></i>
+                </a>
+            </div>
+            <div class="px-5" style="color: gray;">
+                <a href="mailto:aynur.kaysoy@gmail.com" target="_blank">
+                    <i class="fas fa-envelope fa-5x"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+<footer class="bg-gray-600 font-thin text-center text-white p-3">&copy;Aynur Kaysoy. Tous droits réservés</footer>
+    <script src="javascript.js"></script>
+</body>
+
+</html>
