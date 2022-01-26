@@ -8,12 +8,12 @@
     <title>Portefolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/40d0367ab6.js" crossorigin="anonymous"></script>
-
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 
 <body>
     <!-- nav -->
-    <nav class="p-3">
+    <nav class="p-3 top">
         <div>
             <div class="flex p4 justify-between">
                 <div>
@@ -67,8 +67,8 @@
         <div class="text-center">
             <p class="text-4xl md:text-7xl text-center font-thin m-3">DEVELOPPEUSE FULLSTACK</p>
             <p class="text-2xl md:text-4xl mb-10 leading-loose text-orange-200">REACT | REACT NATIVE</p>
-            <svg xmlns="http://www.w3.org/2000/svg" class="animate-bounce h-10 w-10 text-zinc-600 mx-auto m-20" fill="none"
-                viewBox="0 0 24 24" stroke="currentColor">
+            <svg xmlns="http://www.w3.org/2000/svg" class="animate-bounce h-10 w-10 text-zinc-600 mx-auto m-20 btndown"
+                fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                     d="M19 13l-7 7-7-7m14-8l-7 7-7-7" />
             </svg>
@@ -78,17 +78,20 @@
     <!-- presentation -->
 
     <div>
-        <h2 id="presentation" class="text-center text-gray-600 font-thin text-4xl py-20">PRESENTATION</h2>
+        <h2 id="presentation" class="text-center text-gray-600 font-thin text-4xl py-20 down">PRESENTATION</h2>
         <div class="flex px-10 md:px-20 flex-col md:flex-row">
-            <p class="flex flex-wrap text-justify text-grey-600 font-thin justify-center leading-relaxed md:my-10 md:ml-20">
+            <p
+                class="flex flex-wrap text-justify text-grey-600 font-thin justify-center leading-relaxed md:my-10 md:ml-20">
                 Après une longue période à l'étranger en tant que professeure de français langue étrangère, je reviens à
                 mon premier choix de carrière, le web, et me spécialise dans le développement d'applications pour
                 intégrer un secteur qui offre beaucoup d'opportunités et qui répond à ma constante envie d'apprendre et
                 d'évoluer. Enthousiaste et désireuse de continuer à me former, j'ai multiplé les formations et les
                 tutoriels afin de devenir autonome et polyvalente dans un secteur en évolution permanente mais qui donne
-                la possibilité de se perfectionner continuellement grâce aux nombreuses ressources et communautés existantes</p>
+                la possibilité de se perfectionner continuellement grâce aux nombreuses ressources et communautés
+                existantes</p>
             <div class="flex flex-wrap justify-center">
-                <img class="object-cover rounded-full md:w-1/2 items-center border-none my-5" alt='photo_profil' src="/img/aynur.jpg">
+                <img class="object-cover rounded-full md:w-1/2 items-center border-none my-5" alt='photo_profil'
+                    src="/img/aynur.jpg">
             </div>
         </div>
     </div>
@@ -99,8 +102,11 @@
         <h2 id="competences" class="text-center text-gray-600 font-thin text-4xl py-20">COMPETENCES</h2>
         <div class="flex px-10 md:px-20 justify-content flex-col md:flex-row">
             <p class="flex flex-wrap text-justify text-gray-600 font-thin content-center leading-relaxed my-5 md:ml-20">
-                Interessée par le code depuis plusieurs années, j'ai vraiment commencé ma reconversion professionnelle en janvier 2021 et je suis maintenant capable de développer des applications web & mobile from scratch, principalement en
-                React et React Native. À ces compétences techniques s'ajoutent des soft skills tels que la résolution de problème ou le sens du collectif,  développés grâce à mes précédents postes et mes longs voyages.<br><br>
+                Interessée par le code depuis plusieurs années, j'ai vraiment commencé ma reconversion professionnelle
+                en janvier 2021 et je suis maintenant capable de développer des applications web & mobile from scratch,
+                principalement en
+                React et React Native. À ces compétences techniques s'ajoutent des soft skills tels que la résolution de
+                problème ou le sens du collectif, développés grâce à mes précédents postes et mes longs voyages.<br><br>
                 <span><a class="hover:text-orange-400" href="/akaysoy_cv.pdf" target="_blank">Visualiser
                         mon profil en détail sur mon cv</a></span>
                 .
@@ -226,13 +232,15 @@
                         </div>
                     </div>
                     <div class="sm:w-1/2 lg:w-1/3 p-3">
-                        <div class="h-auto border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden bg-white">
+                        <div
+                            class="h-auto border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden bg-white">
                             <video controls>
                                 <source src="/video/portefolio.mp4">
                             </video>
                             <div class="p-6 hover:bg-gray-400 hover:text-white transition duration-400 ease-in">
                                 <h3 class="text-2xl mb-3 text-orange-200">Portefolio</h3>
-                                <p class="leading-relaxed mb-3">Site qui présente mes compétences et mes projets<br>Première utilisation de Tailwind</p>
+                                <p class="leading-relaxed mb-3">Site qui présente mes compétences et mes
+                                    projets<br>Première utilisation de Tailwind</p>
                                 <div class="flex items-center flex-wrap ">
                                     <a class="text-orange-200 inline-flex items-center">En savoir plus
                                         <svg onclick="togglePortefolio()" xmlns="http://www.w3.org/2000/svg"
@@ -680,8 +688,16 @@
                 </a>
             </div>
         </div>
+        <div class="text-right pb-10 pr-10">
+            <button class="btntop" onclick="topFunction()" id="myBtn" title="Go to top"><svg
+                    xmlns="http://www.w3.org/2000/svg" class="animate-bounce h-10 w-10 text-zinc-600" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M5 11l7-7 7 7M5 19l7-7 7 7" />
+                </svg></button>
+        </div>
     </div>
-<footer class="bg-gray-600 font-thin text-center text-white p-3">&copy;Aynur Kaysoy. Tous droits réservés</footer>
+    <footer class="bg-gray-600 font-thin text-center text-white p-3">&copy;Aynur Kaysoy. Tous droits réservés</footer>
     <script src="javascript.js"></script>
 </body>
 

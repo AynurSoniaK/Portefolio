@@ -28,3 +28,16 @@ function toggleLingoland() {
 function toggleArtMore() {
     document.getElementById('artmore').classList.toggle('hidden')
 }
+
+
+$('.btntop').eq(0).click(() => {
+    $('html, body').animate({
+        scrollTop: $('.top').eq(0).offset().top
+    }, 800);
+});
+
+$('.btndown').eq(0).click(() => {
+    $('html, body').animate({
+        scrollTop: $('.down').eq(0).offset().top
+    }, 800);
+});
