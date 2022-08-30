@@ -81,8 +81,7 @@
     <div>
         <h2 id="presentation" class="text-center text-gray-600 font-thin text-4xl py-20 down">PRESENTATION</h2>
         <div class="flex px-10 md:px-20 flex-col md:flex-row">
-            <p
-                class="flex text-justify text-grey-600 font-thin justify-center leading-relaxed md:my-10 md:ml-20 pb-6">
+            <p class="flex text-justify text-grey-600 font-thin justify-center leading-relaxed md:my-10 md:ml-20 pb-6">
                 Après une longue période à l'étranger en tant que professeure de français langue étrangère, je reviens à
                 mon premier choix de carrière, le web, et me spécialise dans le développement d'applications pour
                 intégrer un secteur qui offre beaucoup d'opportunités et qui répond à ma constante envie d'apprendre et
@@ -127,6 +126,9 @@
                     TAILWIND</p>
                 <p
                     class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-zinc-300 rounded">
+                    STYLED-COMPONENTS</p>
+                <p
+                    class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-200 rounded">
                     JAVASCRIPT</p>
                 <p
                     class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-200 rounded">
@@ -163,10 +165,19 @@
                     HEROKU</p>
                 <p
                     class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-emerald-400 rounded">
+                    NETLIFY</p>
+                <p
+                    class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-emerald-400 rounded">
                     GIT</p>
                 <p
                     class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-emerald-400 rounded">
-                    PHOTOSHOP</p>
+                    FORK</p>
+                <p
+                    class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-emerald-400 rounded">
+                    STORYBOOK</p>
+                <p
+                    class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-emerald-400 rounded">
+                    FIGMA</p>
                 <p
                     class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-emerald-400 rounded">
                     WORDPRESS</p>
@@ -184,6 +195,31 @@
                 <div class="flex flex-wrap">
                     <div class="sm:w-1/2 lg:w-1/3 p-3">
                         <div class="h-auto border-2 border-gray-100 rounded-lg overflow-hidden bg-white">
+                            <video controls>
+                                <source src="/video/evasion.mp4">
+                            </video>
+                            <div class="p-6 hover:bg-lime-500 hover:text-white transition duration-400 ease-in">
+                                <h3 class="text-2xl mb-3 text-gray-600">Evasion</h3>
+                                <p class="leading-relaxed mb-3">Application proposant de visualiser des contenus
+                                    immersifs.<br> Développée à
+                                    3
+                                    dans le cadre d'un stage de 6 mois.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a class="text-gray-600 inline-flex items-center">En savoir plus
+                                        <svg onclick="toggleEvasion()" xmlns="http://www.w3.org/2000/svg"
+                                            class="h8- w-8 p-1 m-1 hover:animate-ping" viewBox="0 0 20 20"
+                                            fill="currentColor">
+                                            <path fill-rule="evenodd"
+                                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z"
+                                                clip-rule="evenodd" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sm:w-1/2 lg:w-1/3 p-3">
+                        <div class="h-auto border-2 border-gray-100 rounded-lg overflow-hidden bg-white">
                             <!--<iframe class="lg:h-72 md:h-48 w-full object-cover object-center"
                             src="https://www.youtube.com/embed/qozRajUe8gM" title="demo Art+More" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -193,14 +229,19 @@
                             </video>
                             <div class="p-6 hover:bg-rose-400 hover:text-white transition duration-400 ease-in">
                                 <h3 class="text-2xl mb-3 text-gray-600">Art+More</h3>
-                                <p class="leading-relaxed mb-3">Application mobile d'art personnalisée.<br> Développée à
+                                <p class="leading-relaxed mb-3">Application mobile d'art personnalisée.<br>
+                                    Développée à
                                     4
                                     pour l'obtention du titre RNCP de niveau 6.</p>
                                 <div class="flex items-center flex-wrap ">
                                     <a class="text-gray-600 inline-flex items-center">En savoir plus
-                                        <svg onclick="toggleArtMore()" xmlns="http://www.w3.org/2000/svg" class="h8- w-8 p-1 m-1 hover:animate-ping" viewBox="0 0 20 20" fill="currentColor">
-                                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z" clip-rule="evenodd" />
-                                          </svg>
+                                        <svg onclick="toggleArtMore()" xmlns="http://www.w3.org/2000/svg"
+                                            class="h8- w-8 p-1 m-1 hover:animate-ping" viewBox="0 0 20 20"
+                                            fill="currentColor">
+                                            <path fill-rule="evenodd"
+                                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z"
+                                                clip-rule="evenodd" />
+                                        </svg>
                                     </a>
                                 </div>
                             </div>
@@ -216,14 +257,18 @@
                             </video>
                             <div class="p-6 hover:bg-orange-300 hover:text-white transition duration-400 ease-in">
                                 <h3 class="text-2xl text-emerald-600 mb-3">Lingoland.fr</h3>
-                                <p class="leading-relaxed mb-3">Application web d'échange linguistique.<br>Développée
+                                <p class="leading-relaxed mb-3">Application web d'échange
+                                    linguistique.<br>Développée
                                     seule
                                     pour l'obtention du titre RNCP de niveau 5.</p>
                                 <a class="text-emerald-600 inline-flex items-center">En savoir plus
                                     <svg onclick="toggleLingoland()" xmlns="http://www.w3.org/2000/svg"
-                                    class="h-8 w-8 p-1 m-1 hover:animate-ping" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z" clip-rule="evenodd" />
-                                  </svg>
+                                        class="h-8 w-8 p-1 m-1 hover:animate-ping" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z"
+                                            clip-rule="evenodd" />
+                                    </svg>
                                 </a>
                             </div>
                         </div>
@@ -241,9 +286,12 @@
                                 <div class="flex items-center flex-wrap ">
                                     <a class="text-orange-200 inline-flex items-center">En savoir plus
                                         <svg onclick="togglePortefolio()" xmlns="http://www.w3.org/2000/svg"
-                                        class="h-8 w-8 p-1 m-1 hover:animate-ping" viewBox="0 0 20 20" fill="currentColor">
-                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z" clip-rule="evenodd" />
-                                      </svg>
+                                            class="h-8 w-8 p-1 m-1 hover:animate-ping" viewBox="0 0 20 20"
+                                            fill="currentColor">
+                                            <path fill-rule="evenodd"
+                                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z"
+                                                clip-rule="evenodd" />
+                                        </svg>
                                     </a>
                                 </div>
                             </div>
@@ -257,13 +305,17 @@
                             </video>
                             <div class="p-6 hover:bg-yellow-400 hover:text-white transition duration-400 ease-in">
                                 <h3 class="text-2xl text-blue-600 mb-3">MyMoviz</h3>
-                                <p class="leading-relaxed mb-3">Application web liée à une API qui référence une
+                                <p class="leading-relaxed mb-3">Application web liée à une API qui référence
+                                    une
                                     multitude de films, avec ajout à une wishlist.</p>
                                 <a class="text-blue-600 inline-flex items-center">En savoir plus
                                     <svg onclick="toggleMoviz()" xmlns="http://www.w3.org/2000/svg"
-                                    class="h-8 w-8 p-1 m-1 hover:animate-ping" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z" clip-rule="evenodd" />
-                                  </svg>
+                                        class="h-8 w-8 p-1 m-1 hover:animate-ping" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z"
+                                            clip-rule="evenodd" />
+                                    </svg>
                                 </a>
                             </div>
                         </div>
@@ -276,13 +328,17 @@
                             </video>
                             <div class="p-6 hover:bg-indigo-400 hover:text-white transition duration-400 ease-in">
                                 <h3 class="text-2xl text-pink-600 mb-3">MorningNews</h3>
-                                <p class="leading-relaxed mb-3">Application web permettant d’afficher les dernières news
+                                <p class="leading-relaxed mb-3">Application web permettant d’afficher les
+                                    dernières news
                                     avec la possibilité d'ajouter un article dans ses favoris.</p>
                                 <a class="text-pink-600 inline-flex items-center">En savoir plus
                                     <svg onclick="toggleMorning()" xmlns="http://www.w3.org/2000/svg"
-                                    class="h-8 w-8 p-1 m-1 hover:animate-ping" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z" clip-rule="evenodd" />
-                                  </svg>
+                                        class="h-8 w-8 p-1 m-1 hover:animate-ping" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z"
+                                            clip-rule="evenodd" />
+                                    </svg>
                                 </a>
                             </div>
                         </div>
@@ -300,9 +356,12 @@
                                     d'une maquette "Pixel-Perfect"</p>
                                 <a class="text-gray-600 inline-flex items-center">En savoir plus
                                     <svg onclick="toggleBike()" xmlns="http://www.w3.org/2000/svg"
-                                    class="h-8 w-8 p-1 m-1 hover:animate-ping" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z" clip-rule="evenodd" />
-                                  </svg>
+                                        class="h-8 w-8 p-1 m-1 hover:animate-ping" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z"
+                                            clip-rule="evenodd" />
+                                    </svg>
                                 </a>
                             </div>
                         </div>
@@ -344,9 +403,11 @@
                                 NODE.JS</p>
                         </div>
                         <ul class="w-full rounded-lg mt-2 mb-3 text-gray-600 font-thin list-disc leading-relaxed">
-                            <li class="ml-20">Mettre en place une interface responsive</li>
-                            <li class="ml-20">Gérer un catalogue produit</li>
-                            <li class="ml-20"> Mettre en place un panier</li>
+                            <li class="ml-20">Créer une interface utilisateur responsive avec HTML et CSS et la
+                                librairie Bootstrap.</li>
+                            <li class="ml-20">Rendre dynamiques des pages HTML via le Backend.</li>
+                            <li class="ml-20">Gérer un catalogue produit.</li>
+                            <li class="ml-20">Mettre en place un panier</li>
                             <li class="ml-20">Intégrer un moyen de paiement avec Stripe</li>
                         </ul>
                     </div>
@@ -400,7 +461,8 @@
                         </div>
                         <ul class="w-full rounded-lg mt-2 mb-3 text-gray-600 font-thin list-disc leading-relaxed">
                             <li class="ml-16">Intégrer une API sous forme de Webservice - NewsAPI</li>
-                            <li class="ml-16">Mettre en place une navigation avec le système des routes dans React</li>
+                            <li class="ml-16">Mettre en place une navigation avec le système des routes dans
+                                React</li>
                             <li class="ml-16">Manipuler les champs de saisie dans React</li>
                             <li class="ml-16">Mettre en place un système d’identification sign in/sign up</li>
                             <li class="ml-16">Utiliser Redux pour faciliter l’échange de données</li>
@@ -462,9 +524,11 @@
                             <li class="ml-16">Intégrer une API sous forme de Webservice - TMDB</li>
                             <li class="ml-16">Créer une interface graphique avec JSX</li>
                             <li class="ml-16">Découper une application en composants React</li>
-                            <li class="ml-16">Maîtriser les concepts de propriété et d’état d’un composant React</li>
+                            <li class="ml-16">Maîtriser les concepts de propriété et d’état d’un composant React
+                            </li>
                             <li class="ml-16">Maîtriser la gestion des événements en React</li>
-                            <li class="ml-16">Faire remonter de l’information entre les composants React (Reverse Data
+                            <li class="ml-16">Faire remonter de l’information entre les composants React (Reverse
+                                Data
                                 Flow)
                             </li>
                             <li class="ml-16">Mettre en place notre propre API via un Backend</li>
@@ -578,6 +642,7 @@
                             <li class="ml-16">Créer une interface responsive avec Bootstrap</li>
                             <li class="ml-16">Rendre des pages HTML dynamiques</li>
                             <li class="ml-16">Mettre en place une base de données</li>
+                            <li class="ml-16">Mettre en place notre propre API via un Backend</li>
                             <li class="ml-16">Mettre en œuvre une architecture MVC</li>
                             <li class="ml-16">Mettre en place un système d’identification sign in/sign up sécurisée</li>
                             <li class="ml-16">Mettre en place un système de messagerie</li>
@@ -610,14 +675,17 @@
                                 class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-red-300 rounded">
                                 FIGMA</p>
                             <p
+                                class="inline-flex items-center justify-center px-2 py-1 m-1 text-xs font-bold text-zinc-600 bg-zinc-300 rounded">
+                                HTML</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-zinc-300 rounded">
+                                CSS</p>
+                            <p
                                 class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-red-300 rounded">
                                 TRELLO</p>
                             <p
                                 class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-zinc-300 rounded">
                                 JAVASCRIPT</p>
-                            <p
-                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-200 rounded">
-                                REACT</p>
                             <p
                                 class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-200 rounded">
                                 REACT NATIVE</p>
@@ -638,10 +706,14 @@
                                 GIT</p>
                         </div>
                         <ul class="w-full rounded-lg mt-2 mb-3 text-gray-600 font-thin list-disc leading-relaxed">
-                            <li class="ml-16">Créer une interface avec HTML et CSS</li>
-                            <li class="ml-16">Maîtriser la notion de DOM et d'événements en JS</li>
-                            <li class="ml-16">Créer une interface responsive</li>
-                            <li class="ml-16">Prendre en main le framework CSS Tailwind</li>
+                            <li class="ml-16">Intégrer une API sous forme de Webservice - Opendatasoft</li>
+                            <li class="ml-16">Utiliser l'environnement Expo pour déployer une app sur les mobiles.</li>
+                            <li class="ml-16">Mettre en place une navigation pour mobile avec React Navigation.</li>
+                            <li class="ml-16">Mettre en place une base de données</li>
+                            <li class="ml-16">Mettre en place notre propre API via un Backend</li>
+                            <li class="ml-16">Utiliser Redux pour faciliter l’échange de données</li>
+                            <li class="ml-16">Mettre en place un système de stockage local (Local Storage.)</li>
+                            <li class="ml-16">Mettre en place un système d’identification sign in/sign up sécurisée</li>
                         </ul>
                     </div>
                     <div class="text-right">
@@ -651,6 +723,88 @@
                     </div>
                 </div>
             </div>
+        </div>
+        </div>
+        <div class="fixed z-10 overflow-y-auto top-0 w-full left-0 hidden" id="evasion">
+            <div class="flex items-center justify-center min-height-100vh pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+                <div class="transition-opacity">
+                    <div class="absolute inset-0 bg-gray-800 opacity-75" />
+                </div>
+                <span class="hidden sm:inline-block sm:align-middle sm:h-screen">&#8203;</span>
+                <div class="inline-block align-center bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full"
+                    role="dialog" aria-modal="true" aria-labelledby="modal-headline">
+                    <div class="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
+                        <h4 class="font-thin text-2xl text-center m-5">COMPETENCES TECHNIQUES </h4>
+                        <div class="flex flex-wrap justify-center my-10 px-3">
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-red-300 rounded">
+                                MONDAY</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-red-300 rounded">
+                                FIGMA</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-1 m-1 text-xs font-bold text-zinc-600 bg-zinc-300 rounded">
+                                HTML</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-zinc-300 rounded">
+                                CSS</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-zinc-300 rounded">
+                                STYLED-COMPONENTS</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-zinc-300 rounded">
+                                JAVASCRIPT</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-200 rounded">
+                                REACT</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-200 rounded">
+                                STORYBOOK</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-200 rounded">
+                                REDUX</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-300 rounded">
+                                SYMFONY</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-300 rounded">
+                                API-PLATFORM</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-300 rounded">
+                                PHP</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-300 rounded">
+                                MYSQL</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-orange-300 rounded">
+                                PHPMYADMIN</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-emerald-400 rounded">
+                                GIT</p>
+                            <p
+                                class="inline-flex items-center justify-center px-2 py-2 m-1 text-xs font-bold text-zinc-600 bg-emerald-400 rounded">
+                                FORK</p>
+                        </div>
+                        <ul class="w-full rounded-lg mt-2 mb-3 text-gray-600 font-thin list-disc leading-relaxed">
+                            <li class="ml-16">Créer une interface responsive</li>
+                            <li class="ml-16">Rendre des pages HTML dynamiques</li>
+                            <li class="ml-16">Mettre en place une base de données</li>
+                            <li class="ml-16">Mettre en œuvre une architecture MVC</li>
+                            <li class="ml-16">Mettre en place notre propre API via un Backend et API-Platform</li>
+                            <li class="ml-16">Utiliser Redux pour faciliter l’échange de données</li>
+                            <li class="ml-16">Mettre en place un système de stockage local (Local Storage.)</li>
+                            <li class="ml-16">Mettre en place un système d’identification sign in/sign up sécurisée
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="text-right">
+                        <button type="button"
+                            class="my-2 py-2 px-4 bg-gray-400 text-white rounded hover:bg-gray-600 mr-5 mb-5"
+                            onclick="toggleEvasion()">Fermer</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
     </section>
     <!-- Contact -->

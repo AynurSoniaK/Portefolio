@@ -29,6 +29,10 @@ function toggleArtMore() {
     document.getElementById('artmore').classList.toggle('hidden')
 }
 
+function toggleEvasion() {
+    document.getElementById('evasion').classList.toggle('hidden')
+}
+
 
 $('.btntop').eq(0).click(() => {
     $('html, body').animate({
