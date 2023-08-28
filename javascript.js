@@ -33,6 +33,10 @@ function toggleEvasion() {
     document.getElementById('evasion').classList.toggle('hidden')
 }
 
+function toggleDogs() {
+    document.getElementById('dogs').classList.toggle('hidden')
+}
+
 
 $('.btntop').eq(0).click(() => {
     $('html, body').animate({
